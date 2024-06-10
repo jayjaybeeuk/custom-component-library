@@ -1,0 +1,11 @@
+{
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "files.autoSave": "onFocusChange",
+  "files.insertFinalNewline": true,
+  "typescript.format.enable": false,
+  "javascript.format.enable": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
