@@ -1,0 +1,30 @@
+{
+  "name": "@jayjaybeeuk/figma-button",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "James Bolton <jayjaybeeuk@gmail.com>",
+  "homepage": "https://github.com/jayjaybeeuk/custom-component-library#readme",
+  "license": "ISC",
+  "main": "lib/figma-button.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayjaybeeuk/custom-component-library.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node ./__tests__/figma-button.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/jayjaybeeuk/custom-component-library/issues"
+  },
+  "dependencies": {
+    "@jayjaybeeuk/shared-styles": "^1.0.0"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "@jayjaybeeuk/shared-styles",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "James Bolton <jayjaybeeuk@gmail.com>",
+  "homepage": "https://github.com/jayjaybeeuk/custom-component-library#readme",
+  "license": "ISC",
+  "main": "lib/styleguide.css",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayjaybeeuk/custom-component-library.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/shared-styles.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/jayjaybeeuk/custom-component-library/issues"
+  }
+}
