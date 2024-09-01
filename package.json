@@ -13,12 +13,12 @@
     "format": "prettier --write 'src/**/*.{js,ts,tsx,json,css,scss,md}'",
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
+    "build:storybook": "storybook build",
     "publish": "lerna publish",
     "prepare": "husky",
     "test": "jest",
     "test:watch": "jest --watch",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "storybook": "storybook dev -p 6006"
   },
   "keywords": [],
   "author": "",
