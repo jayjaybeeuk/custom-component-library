@@ -1,6 +1,6 @@
 {
   "name": "@jayjaybeeuk/figma-button",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "> TODO: description",
   "author": "James Bolton <jayjaybeeuk@gmail.com>",
   "homepage": "https://github.com/jayjaybeeuk/custom-component-library#readme",
@@ -25,6 +25,6 @@
     "url": "https://github.com/jayjaybeeuk/custom-component-library/issues"
   },
   "dependencies": {
-    "@jayjaybeeuk/shared-styles": "^1.0.0"
+    "@jayjaybeeuk/shared-styles": "^1.0.1"
   }
 }
