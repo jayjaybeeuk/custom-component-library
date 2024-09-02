@@ -1,0 +1,46 @@
+name: Node.js Package CI
+
+on:
+  push:
+    branches:
+      - main  # Trigger the workflow on push to the main branch
+  pull_request:
+    branches:
+      - main  # Trigger the workflow on PRs to the main branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: "Setup npm"
+        run: |
+          npm set @jayjaybeeuk:registry=https://npm.pkg.github.com/jayjaybeeuk
+          npm set "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests
+        run: npm test
+
+      - name: Build package
+        run: npm run build
+
+      - name: Upload build files to repo
+        run: |
+          # Configure git
+          git config user.name "$(git log -n 1 --pretty=format:%an)"
+          git config user.email "$(git log -n 1 --pretty=format:%ae)"
+
+      - name: Publish to GitHub Packages
+        if: github.ref == 'refs/heads/main'
+        run: publish::packages
