@@ -43,4 +43,4 @@ jobs:
 
       - name: Publish to GitHub Packages
         if: github.ref == 'refs/heads/main'
-        run: publish::packages
+        run: npm run publish::packages
