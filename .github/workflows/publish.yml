@@ -9,7 +9,8 @@ on:
       - main  # Trigger the workflow on PRs to the main branch
 
 permissions:
-  contents: write  # Grants write access
+  contents: write
+  packages: write
 
 jobs:
   build:
