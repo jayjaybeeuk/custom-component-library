@@ -31,7 +31,7 @@ jobs:
           npm set "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}"
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci --include=optional
 
       - name: Run tests
         run: npm test
