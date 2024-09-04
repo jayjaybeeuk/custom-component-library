@@ -95,6 +95,7 @@
     "@nx/nx-darwin-x64": "16.10.0",
     "@nx/nx-linux-x64-gnu": "16.10.0",
     "@nx/nx-win32-x64-msvc": "16.10.0",
-    "@rollup/rollup-linux-x64-gnu": "4.21.2"
+    "@rollup/rollup-linux-x64-gnu": "4.21.2",
+    "@esbuild/linux-x64": "0.20.2"
   }
 }
