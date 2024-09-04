@@ -1,6 +1,6 @@
 {
   "name": "@jayjaybeeuk/molecules-figma-button",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "> TODO: description",
   "author": "James Bolton <jayjaybeeuk@gmail.com>",
   "type": "module",
@@ -26,6 +26,6 @@
     "url": "https://github.com/jayjaybeeuk/custom-component-library/issues"
   },
   "dependencies": {
-    "@jayjaybeeuk/shared-styles": "^1.0.5"
+    "@jayjaybeeuk/shared-styles": "^1.0.6"
   }
 }
