@@ -1,9 +1,10 @@
 {
-  "name": "@jayjaybeeuk/button",
+  "name": "@jayjaybeeuk/atoms-icon",
   "version": "1.0.1",
   "description": "",
-  "main": "lib/button.js",
-  "typings": "lib/button.d.ts",
+  "main": "lib/index.js",
+  "type": "module",
+  "typings": "lib/icon.d.ts",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -15,18 +16,25 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "../../../scripts/build.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
     "@types/react": "^18.3.3",
+    "postcss": "^8.4.44",
+    "postcss-modules": "^6.0.0",
+    "rollup": "^4.21.2",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-postcss": "^4.0.2",
     "typescript": "^5.4.5"
   },
   "dependencies": {
     "@radix-ui/themes": "^3.0.5",
-    "react": "^18.3.1"
+    "react": "^18.3.1",
+    "react-feather": "^2.0.10"
   }
 }

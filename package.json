@@ -1,17 +1,23 @@
 {
   "name": "@jayjaybeeuk/custom-component-library",
-  "version": "1.0.0",
+  "version": "independent",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "private": true,
   "workspaces": [
-    "packages/*"
+    "packages/atoms/*",
+    "packages/molecules/*",
+    "packages/organisms/*",
+    "packages/templates/*",
+    "packages/pages/*",
+    "packages/types"
   ],
   "scripts": {
+    "bootstrap": "lerna bootstrap",
     "lint": "eslint 'src/**/*.{js,ts,tsx}'",
     "lint:fix": "eslint 'src/**/*.{js,ts,tsx}' --fix",
     "format": "prettier --write 'src/**/*.{js,ts,tsx,json,css,scss,md}'",
-    "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
     "build:storybook": "storybook build",
     "publish::packages": "lerna version --conventional-commits --yes && lerna publish from-package --yes",
@@ -34,6 +40,9 @@
     "@commitlint/config-conventional": "^19.2.2",
     "@lerna/publish": "^6.4.1",
     "@lerna/version": "^6.4.1",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
     "@storybook/addon-essentials": "^8.1.6",
     "@storybook/addon-interactions": "^8.1.6",
     "@storybook/addon-links": "^8.1.6",
@@ -44,13 +53,13 @@
     "@storybook/react-webpack5": "^8.1.6",
     "@storybook/test": "^8.1.6",
     "@testing-library/jest-dom": "^6.4.5",
-    "@testing-library/react": "^16.0.0",
+    "@testing-library/react": "^16.0.1",
     "@testing-library/user-event": "^14.5.2",
     "@types/jest": "^29.5.12",
     "@typescript-eslint/eslint-plugin": "^7.12.0",
     "@typescript-eslint/parser": "^7.12.0",
-    "babel-jest": "^29.7.0",
     "conventional-changelog-cli": "^5.0.0",
+    "cross-env": "^7.0.3",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.29.1",
@@ -66,9 +75,19 @@
     "jest-environment-jsdom": "^29.7.0",
     "lerna": "^8.1.3",
     "lint-staged": "^15.2.5",
+    "postcss": "^8.4.44",
+    "postcss-modules": "^6.0.0",
     "prettier": "^3.3.1",
+    "rollup": "^4.21.2",
+    "rollup-plugin-css-modules": "^0.1.2",
+    "rollup-plugin-postcss": "^4.0.2",
     "storybook": "^8.1.6",
     "ts-jest": "^29.1.4",
-    "typescript": "^5.4.5"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
+    "typescript-plugin-css-modules": "^5.1.0"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1"
   }
 }

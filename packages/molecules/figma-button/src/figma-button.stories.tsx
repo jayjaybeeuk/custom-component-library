@@ -8,7 +8,7 @@ export const ActionsData: FigmaButtonProps = {
 
 export default {
   component: FigmaButton,
-  title: 'Figma Button',
+  title: 'Molecules/Figma Button',
   tags: ['autodocs'],
   //👇 Our exports that end in "Data" are not stories.
   excludeStories: /.*Data$/,

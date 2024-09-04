@@ -1,0 +1,34 @@
+{
+  "name": "@jayjaybeeuk/types",
+  "version": "1.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "type": "module",
+  "typings": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "../../scripts/build.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@radix-ui/themes": "^3.0.5",
+    "react": "^18.3.1",
+    "react-feather": "^2.0.10"
+  }
+}

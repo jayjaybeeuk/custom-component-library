@@ -1,8 +1,9 @@
 {
-  "name": "@jayjaybeeuk/figma-button",
+  "name": "@jayjaybeeuk/molecules-figma-button",
   "version": "1.0.1",
   "description": "> TODO: description",
   "author": "James Bolton <jayjaybeeuk@gmail.com>",
+  "type": "module",
   "homepage": "https://github.com/jayjaybeeuk/custom-component-library#readme",
   "license": "ISC",
   "main": "lib/figma-button.js",
@@ -18,7 +19,7 @@
     "url": "git+https://github.com/jayjaybeeuk/custom-component-library.git"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "../../../scripts/build.sh",
     "test": "node ./__tests__/figma-button.test.js"
   },
   "bugs": {

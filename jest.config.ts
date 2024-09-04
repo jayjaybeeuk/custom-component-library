@@ -1,6 +1,4 @@
-/* global module */
-
-module.exports = {
+export default {
   preset: 'ts-jest',
   testEnvironment: 'jsdom',
   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
@@ -8,9 +6,13 @@ module.exports = {
   moduleNameMapper: {
     '\\.(css|less|sass|scss)$': 'identity-obj-proxy',
   },
+  // transform: {
+  //   '^.+\\.[tj]sx?$': 'babel-jest',
+  // },
   transform: {
-    '^.+\\.[tj]sx?$': 'babel-jest',
+    '^.+\\.ts$': 'ts-jest',
   },
   transformIgnorePatterns: ['/node_modules/'],
   testPathIgnorePatterns: ['/node_modules/', '/dist/'],
+  
 };

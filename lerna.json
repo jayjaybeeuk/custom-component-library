@@ -1,6 +1,12 @@
 {
+  "npmClient": "npm",
   "packages": [
-    "packages/*"
+    "packages/atoms/*",
+    "packages/molecules/*",
+    "packages/organisms/*",
+    "packages/templates/*",
+    "packages/pages/*",
+    "packages/types"
   ],
   "version": "independent",
   "command": {

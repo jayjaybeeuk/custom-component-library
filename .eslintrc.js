@@ -30,5 +30,6 @@ module.exports = {
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
     'react/react-in-jsx-scope': 'off',
+    'react/display-name': 'off',
   },
 };

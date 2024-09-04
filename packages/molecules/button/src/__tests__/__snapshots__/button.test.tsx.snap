@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button matches snapshot for default variant and medium padding 1`] = `
+<DocumentFragment>
+  <button
+    class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button default md root"
+    data-accent-color=""
+  >
+    <span
+      class="rt-Text rt-r-size-3"
+    >
+      Default Button
+    </span>
+  </button>
+</DocumentFragment>
+`;

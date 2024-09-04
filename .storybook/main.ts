@@ -22,6 +22,15 @@ const config: StorybookConfig = {
     getAbsolutePath('@chromatic-com/storybook'),
     getAbsolutePath('@storybook/addon-interactions'),
   ],
+  swc: () => ({
+    jsc: {
+      transform: {
+        react: {
+          runtime: 'automatic'
+        }
+      }
+    }
+  }),
   framework: {
     name: getAbsolutePath('@storybook/react-webpack5'),
     options: {},
