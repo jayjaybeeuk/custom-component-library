@@ -14,7 +14,7 @@ export default {
     resolve(),
     typescript({
       include: ['./src/**/*.ts', './src/**/*.tsx'], // Include TypeScript files
-      exclude: ['./node_modules/**/*','src/**/__tests__/**/*'], // Exclude node_modules
+      exclude: ['./node_modules/**/*', 'src/**/__tests__/**/*'], // Exclude node_modules
       tsconfig: './tsconfig.json', // Ensure this points to your TypeScript configuration
     }),
     commonjs(),

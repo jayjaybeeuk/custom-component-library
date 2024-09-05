@@ -1,0 +1,31 @@
+{
+  "name": "@jayjaybeeuk/theming",
+  "version": "1.0.8",
+  "description": "> TODO: description",
+  "author": "James Bolton <jayjaybeeuk@gmail.com>",
+  "type": "module",
+  "homepage": "https://github.com/jayjaybeeuk/custom-component-library#readme",
+  "license": "ISC",
+  "main": "lib/index.jsx",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayjaybeeuk/custom-component-library.git"
+  },
+  "scripts": {
+    "build": "../../scripts/build.sh",
+    "test": "node ./__tests__/figma-button.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/jayjaybeeuk/custom-component-library/issues"
+  },
+  "dependencies": {
+    "@jayjaybeeuk/types": "^1.0.7"
+  }
+}

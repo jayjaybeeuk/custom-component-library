@@ -6,7 +6,8 @@
     "packages/organisms/*",
     "packages/templates/*",
     "packages/pages/*",
-    "packages/types"
+    "packages/types",
+    "packages/theming"
   ],
   "version": "independent",
   "command": {
