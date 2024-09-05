@@ -36,8 +36,8 @@ jobs:
       - name: Build package
         run: npm run build
 
-      - name: Build storybook
-        run: npm run build:storybook
+      - name: Remove files
+        run: git checkout -- package-lock.json
 
       - name: Run tests
         run: npm test
@@ -46,7 +46,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git checkout -- package-lock.json
           git push --follow-tags --no-verify --atomic origin main
 
       - name: Publish to GitHub Packages
