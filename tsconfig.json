@@ -13,13 +13,15 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
-    "types": ["jest", "@testing-library/jest-dom"],
-    "paths": {
-      "@jayjaybeeuk/*": ["packages/*/src"],
-      "@jayjaybeeuk/atoms-icon": ["packages/atoms/icon/src"],
-      "@jayjaybeeuk/types": ["packages/types/src"],
-    }
+    "types": ["jest", "@testing-library/jest-dom"]
   },
   "include": ["packages/*/src", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules", "dist", "lib", "packages/*/lib", "packages/*/dist", "packages/*/node_modules"]
+  "exclude": [
+    "node_modules",
+    "dist",
+    "lib",
+    "packages/*/lib",
+    "packages/*/dist",
+    "packages/*/node_modules"
+  ]
 }
