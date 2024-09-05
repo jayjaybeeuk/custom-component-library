@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.8 (2024-09-05)
+
+### Bug Fixes
+
+- update package lock and add missing dependency ([7d9fa5f](https://github.com/jayjaybeeuk/custom-component-library/commit/7d9fa5fa8ce1c189fd4a8acbb45a325c24cb3ed0))
+
 ## 1.0.7 (2024-09-05)
 
 ### Bug Fixes
