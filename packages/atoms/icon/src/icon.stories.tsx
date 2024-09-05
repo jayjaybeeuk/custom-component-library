@@ -1,8 +1,7 @@
-import { fn } from '@storybook/test';
 import { Icon, IconProps } from './icon';
 import { JSX } from 'react/jsx-runtime';
 
-export const iconProps:IconProps = {
+export const Icons: IconProps = {
   name: 'Activity',
   size: 'md',
 };
@@ -13,12 +12,10 @@ export default {
   tags: ['autodocs'],
   excludeStories: /.*Data$/,
   args: {
-    ...iconProps,
+    ...Icons,
   },
 };
 
 export const Default = {
-  render: (args: JSX.IntrinsicAttributes & IconProps) => (
-    <Icon {...args} />
-  ),
+  render: (args: JSX.IntrinsicAttributes & IconProps) => <Icon {...args} />,
 };

@@ -5,7 +5,6 @@ import clsx from 'clsx';
 import { forwardRef } from 'react';
 import styles from './style.module.css';
 
-
 export interface ButtonProps
   extends Omit<React.ButtonHTMLAttributes<HTMLButtonElement>, 'color'>,
     StartEndIconProps {
