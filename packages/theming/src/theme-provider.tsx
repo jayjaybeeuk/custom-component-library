@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Theme } from '@jayjaybeeuk/types';
-import defaultTheme from './template.module';
+import defaultTheme from './template.module.css';
 
 interface ThemeProviderProps {
   theme: Theme;

@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import React from 'react';
 import { useReducer } from 'react';
-import './styles.css';
+import './styles.module.css';
 import '@jayjaybeeuk/shared-styles/src/styleguide.css';
 
 export interface FigmaButtonProps {
