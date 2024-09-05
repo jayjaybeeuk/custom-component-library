@@ -1,6 +1,6 @@
 {
   "name": "@jayjaybeeuk/theming",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "> TODO: description",
   "author": "James Bolton <jayjaybeeuk@gmail.com>",
   "type": "module",
@@ -26,6 +26,6 @@
     "url": "https://github.com/jayjaybeeuk/custom-component-library/issues"
   },
   "dependencies": {
-    "@jayjaybeeuk/types": "^1.1.0"
+    "@jayjaybeeuk/types": "^1.1.1"
   }
 }
