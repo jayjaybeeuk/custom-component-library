@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.9](https://github.com/jayjaybeeuk/custom-component-library/compare/@jayjaybeeuk/molecules-button@1.0.8...@jayjaybeeuk/molecules-button@1.0.9) (2024-09-05)
+
+### Bug Fixes
+
+- lint fixes ([09ecdd7](https://github.com/jayjaybeeuk/custom-component-library/commit/09ecdd7a176d6f317bdb4f482ae3ee2ef1e11712))
+
 ## 1.0.8 (2024-09-05)
 
 ### Bug Fixes
