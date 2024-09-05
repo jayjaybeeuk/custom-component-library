@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.0.6 (2024-09-05)
+
+### Bug Fixes
+
+- update package lock and exclude from push ([7e2df6f](https://github.com/jayjaybeeuk/custom-component-library/commit/7e2df6f59f19fc005effa7af1a427cf7ee9a5f0c))
+
 ## 1.0.5 (2024-09-04)
 
 ### Bug Fixes
