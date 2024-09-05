@@ -27,6 +27,7 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
+    "@jayjaybeeuk/atoms-icon": "^1.0.6",
     "@jayjaybeeuk/types": "^1.0.6",
     "@radix-ui/themes": "^3.0.5",
     "react": "^18.3.1"
