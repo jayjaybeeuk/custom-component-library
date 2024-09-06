@@ -1,6 +1,6 @@
 {
   "name": "@jayjaybeeuk/molecules-button",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
@@ -28,9 +28,9 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "@jayjaybeeuk/atoms-icon": "^1.0.0",
-    "@jayjaybeeuk/types": "^1.0.0",
-    "@jayjaybeeuk/theming": "^1.0.0",
+    "@jayjaybeeuk/atoms-icon": "^1.0.1",
+    "@jayjaybeeuk/theming": "^1.0.1",
+    "@jayjaybeeuk/types": "^1.0.1",
     "@radix-ui/themes": "^3.0.5",
     "react": "^18.3.1"
   }
