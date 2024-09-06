@@ -1,4 +1,4 @@
-import { Icon, IconProps } from './icon';
+import { Icon, IconProps } from '../icon';
 import { JSX } from 'react/jsx-runtime';
 
 export const Icons: IconProps = {
@@ -8,7 +8,7 @@ export const Icons: IconProps = {
 
 export default {
   component: Icon,
-  title: 'Atoms/Icon',
+  title: 'Atoms/Icon/DefaultTheme',
   tags: ['autodocs'],
   excludeStories: /.*Data$/,
   args: {
