@@ -20,6 +20,14 @@ export default {
   argTypes: {
     variant: { control: 'button', options: ['dropdown', 'ghost-blank'] },
   },
+  parameters: {
+    docs: {
+      description: {
+        component:
+          'This is a **CustomTheme1** button component with different variants and themes. For this example we have only overloaded one colour var, which is **--pink**, to a brighter variant.',
+      },
+    },
+  },
 };
 
 const themeOverride = {

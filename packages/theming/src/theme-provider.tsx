@@ -15,9 +15,10 @@ export const ThemeProvider = ({
   const defaultTheme = useTheme();
 
   const themeToUse: DefaultTheme = theme
-    ? { ...theme, ...defaultTheme }
+    ? { ...defaultTheme, ...theme }
     : defaultTheme;
 
+  console.log('THJEME', themeToUse);
   const scopedNameToUse = scopedName ? `.${scopedName}` : ':root';
 
   const themeStyles = `

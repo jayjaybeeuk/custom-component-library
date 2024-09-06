@@ -1,6 +1,6 @@
 {
   "name": "@jayjaybeeuk/atoms-icon",
-  "version": "1.0.8",
+  "version": "1.0.0",
   "description": "",
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
@@ -24,14 +24,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@rollup/plugin-typescript": "^11.1.6",
-    "@types/react": "^18.3.3",
-    "postcss": "^8.4.44",
-    "postcss-modules": "^6.0.0",
-    "rollup": "^4.21.2",
-    "rollup-plugin-dts": "^6.1.1",
-    "rollup-plugin-postcss": "^4.0.2",
-    "typescript": "^5.4.5"
+    "@types/react": "^18.3.3"
   },
   "dependencies": {
     "@radix-ui/themes": "^3.0.5",

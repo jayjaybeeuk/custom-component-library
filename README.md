@@ -42,7 +42,6 @@ Import and use the components in your React project:
 import React from 'react';
 import { Button } from '@yourorg/button';
 
-
 const App = () => (
   <div>
     <Button variant="primary">Click Me</Button>
@@ -70,8 +69,8 @@ cd your-repo-name
 lerna bootstrap
 ```
 
-
 ### Running the Storybook
+
 To start Storybook and view the components:
 
 ```bash
@@ -79,6 +78,7 @@ npm run storybook
 ```
 
 ### Building the Packages
+
 To build all packages:
 
 ```bash
@@ -128,20 +128,18 @@ Currently basic level theme can be manually created. To add a new theme, create 
 
 ```javascript
 const newTheme = {
-  colors: {
-    primary: '#ff6347',
-    secondary: '#4CAF50',
-    // other theme values
-  },
-  // additional theme properties
+  primary: '#ff6347',
+  secondary: '#4CAF50',
+  ...
 };
 
 export default newTheme;
 ```
 
-In future we are looking to integrate figma tokens directly, or at least formatted to accept them via an import of some kind.
+In future we are looking to integrate figma tokens directly, or at least formatted to accept them via an import of some kind. At present you will have to take figma tokens and map them to the object as found in [this default theme](/packages/theming/src/constants/default-theme.ts).
 
 ## Atomic Design Structure
+
 This component library follows the Atomic Design methodology. Components are categorized as follows:
 
 Atoms: Basic building blocks (e.g., Buttons, Inputs).
@@ -174,7 +172,9 @@ packages/
 We welcome contributions! Please read our Contributing Guide to learn how you can contribute to this project.
 
 ## Reporting Issues
+
 If you find a bug or have a feature request, please open an issue on GitHub.
 
 ## License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
