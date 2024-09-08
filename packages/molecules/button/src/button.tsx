@@ -1,5 +1,5 @@
 import { Icon } from '@jayjaybeeuk/atoms-icon';
-import { StartEndIconProps } from '@jayjaybeeuk/types';
+import type { StartEndIconProps } from '@jayjaybeeuk/types';
 import { Button as RadixButton, Text } from '@radix-ui/themes';
 import clsx from 'clsx';
 import { forwardRef } from 'react';

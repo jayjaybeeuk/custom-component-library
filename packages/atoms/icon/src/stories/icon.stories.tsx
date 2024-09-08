@@ -1,5 +1,5 @@
-import { Icon, IconProps } from '../icon';
-import { JSX } from 'react/jsx-runtime';
+import { Icon, type IconProps } from '../icon';
+import type { JSX } from 'react/jsx-runtime';
 
 export const Icons: IconProps = {
   name: 'Activity',

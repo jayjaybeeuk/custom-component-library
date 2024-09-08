@@ -1,8 +1,8 @@
 import { fn } from '@storybook/test';
 import { ThemeProvider } from '@jayjaybeeuk/theming';
-import { Button, ButtonProps } from '../button';
-import { JSX } from 'react/jsx-runtime';
-import { RefAttributes } from 'react';
+import { Button, type ButtonProps } from '../button';
+import type { JSX } from 'react/jsx-runtime';
+import type { RefAttributes } from 'react';
 
 export const ActionsData = {
   onClick: fn(),

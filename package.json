@@ -17,6 +17,7 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "lint": "eslint 'packages/**/src/**/*.{ts,tsx}'",
+    "lint:types": "tsc --noEmit",
     "lint:fix": "eslint 'packages/**/src/**/*.{ts,tsx}' --fix",
     "format": "prettier --write 'packages/**/src/**/*.{js,ts,tsx,json,css,scss,md}'",
     "build": "lerna run build",
@@ -56,6 +57,7 @@
     "@storybook/react": "^8.2.9",
     "@storybook/react-webpack5": "^8.2.9",
     "@storybook/test": "^8.2.9",
+    "@swc/core": "^1.7.24",
     "@testing-library/jest-dom": "^6.4.5",
     "@testing-library/react": "^16.0.1",
     "@testing-library/user-event": "^14.5.2",
@@ -86,6 +88,7 @@
     "rollup-plugin-css-modules": "^0.1.2",
     "rollup-plugin-postcss": "^4.0.2",
     "storybook": "^8.2.9",
+    "storybook-addon-swc": "^1.2.0",
     "ts-jest": "^29.1.4",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4",
