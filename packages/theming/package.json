@@ -28,11 +28,11 @@
     "url": "https://github.com/jayjaybeeuk/custom-component-library/issues"
   },
   "devDependencies": {
+    "@jayjaybeeuk/types": "../../types/src",
     "@types/react": "^18.3.3",
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "@jayjaybeeuk/types": "^1.0.2",
     "react": "^18.3.1"
   }
 }
