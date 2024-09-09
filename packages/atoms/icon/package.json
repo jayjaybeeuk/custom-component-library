@@ -24,6 +24,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@jayjaybeeuk/types": "../../types/src",
     "@types/react": "^18.3.3"
   },
   "dependencies": {

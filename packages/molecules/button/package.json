@@ -24,13 +24,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@jayjaybeeuk/types": "../../types/src",
     "@types/react": "^18.3.3",
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "@jayjaybeeuk/atoms-icon": "^1.0.1",
-    "@jayjaybeeuk/theming": "^1.0.1",
-    "@jayjaybeeuk/types": "^1.0.1",
+    "@jayjaybeeuk/atoms-icon": "../../atoms/icon/src",
+    "@jayjaybeeuk/theming": "../../theming/src",
     "@radix-ui/themes": "^3.0.5",
     "react": "^18.3.1"
   }
